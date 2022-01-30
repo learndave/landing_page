@@ -1,0 +1,180 @@
+body {
+    font-family: Hero, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.section, .header, .footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto 10px;
+}
+
+.header > .logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    padding: 0;
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.section.one {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    gap: 40px;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.section.one img {
+    width: auto;
+    max-height: 250px;
+}
+
+.section.two {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    text-align: center;
+    gap: 40px;
+}
+
+.section-two-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.section.two .illustration-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
+    background-color: none;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 200px;
+    margin-bottom: 15px;
+}
+
+.illustration .text {
+    font-size: 18px;
+}
+
+.section.three {
+    background-color: #e5e5e5;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 100;
+}
+
+.quote-author {
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.call-to-action-container {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 100px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.call-to-action-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up.below {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #f9faf8;
+    min-width: 100px;
+}
+
+
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color:#f9faf8;
+    text-align: center;
+}
